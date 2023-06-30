@@ -1,0 +1,30 @@
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; 
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* 
+bg  #030711
+
+text #E1E7EF 
+*/
+body {
+  background-color: #030711;
+  color: #e1e7ef;
+  font-family: "Poppins", sans-serif;
+  /* max-width: 1000px;
+  margin: 0 auto; */
+}
+
+a {
+  text-decoration: none;
+  color: #e1e7ef;
+}

@@ -147,25 +147,35 @@ const App = () => {
           <div className="project-detail-container">
             <div className="project-detail">
               <div className="project-info">
-                <h4>Project 1</h4>
+                <h4>bookInn</h4>
                 <div className="tool-req">
                   <p>Javascript</p>
                   <p>React</p>
                   <p>React Router</p>
                   <p>Sementic UI</p>
-                  <p>Express</p>
-                  <p>NodeJs</p>
+                  <p>React Icons</p>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-                  tenetur earum officia libero quo incidunt, sunt cupiditate
-                  assumenda qui animi beatae magnam vitae eligendi ut. Quidem
-                  fugit qui neque nulla.
+                  Welcome bookInn, your homestay booking app! Discover unique
+                  accommodations, book your ideal stay, and immerse yourself in
+                  unforgettable experiences. Browse through a wide selection of
+                  homes, villas, and apartments, and make your travel dreams a
+                  reality.
                 </p>
-                <a href="#">View Project</a>
+                <a
+                  href="https://react-bookinn-application.netlify.app/"
+                  style={{ marginRight: "20px" }}
+                >
+                  View Project
+                </a>
+                <a href="https://github.com/rajdeepX/bookInn-project">
+                  View Code
+                </a>
               </div>
               <div className="project-img-container">
-                <img src="/images/test-image.jpg" alt="ss" />
+                <a href="https://react-bookinn-application.netlify.app/">
+                  <img src="/images/bookInn.png" alt="ss" />
+                </a>
               </div>
             </div>
             <div className="project-detail">

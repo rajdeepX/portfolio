@@ -178,7 +178,7 @@ const App = () => {
                 </a>
               </div>
             </div>
-            <div className="project-detail">
+            {/* <div className="project-detail">
               <div className="project-info">
                 <h4>Project 2</h4>
                 <div className="tool-req">
@@ -246,7 +246,7 @@ const App = () => {
               <div className="project-img-container">
                 <img src="/images/test-image.jpg" alt="ss" />
               </div>
-            </div>
+            </div> */}
             <a href="#" className="other-project">
               Check my other projects on github.
             </a>

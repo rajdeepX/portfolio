@@ -53,7 +53,7 @@ const App = () => {
               Ping me{" "}
               <FontAwesomeIcon className="point" icon={faHandPointRight} />{" "}
               <span>
-                <a href="#">duttarajdeep07@gmail.com</a>
+                <a href="#">rajdeepdutta70@gmail.com</a>
               </span>
             </p>
           </div>
@@ -156,7 +156,7 @@ const App = () => {
                   <p>React Icons</p>
                 </div>
                 <p>
-                  Welcome bookInn, your homestay booking app! Discover unique
+                  Welcome to bookInn, your homestay booking app! Discover unique
                   accommodations, book your ideal stay, and immerse yourself in
                   unforgettable experiences. Browse through a wide selection of
                   homes, villas, and apartments, and make your travel dreams a
@@ -273,15 +273,18 @@ const App = () => {
             about how awesome they are! We can code while we eat our spiced up
             chicken!
           </p>
-          <button className="contact-btn">Contact Me</button>
+          <a href="mailto:rajdeepdutta70@gmail.com" className="contact-btn">
+            Contact Me
+          </a>
         </div>
       </main>
       <footer>
         <div className="footer-links">
-          <a href="#">Email</a>
-          <a href="#">Github</a>
-          <a href="https://www.linkedin.com/">LinkedIn</a>
-          <a href="https://twitter.com/">Twitter</a>
+          <a href="mailto:rajdeepdutta70@gmail.com">Email</a>
+          <a href="https://github.com/rajdeepX">Github</a>
+          <a href="https://www.linkedin.com/in/rajdeep-dutta-5b870115b/">
+            LinkedIn
+          </a>
         </div>
         <p>Created with ⚡ by Rajdeep Dutta @ 2023</p>
       </footer>

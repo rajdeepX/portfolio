@@ -53,7 +53,9 @@ const App = () => {
               Ping me{" "}
               <FontAwesomeIcon className="point" icon={faHandPointRight} />{" "}
               <span>
-                <a href="#">rajdeepdutta70@gmail.com</a>
+                <a target="blank" href="mailto:rajdeepdutta70@gmail.com">
+                  rajdeepdutta70@gmail.com
+                </a>
               </span>
             </p>
           </div>
@@ -73,7 +75,7 @@ const App = () => {
             <p className="bg-details">
               My love and curiosity for computers from early childhood dragged
               me into this sea of awesomeness. And with an engineering mindset,
-              I have immersed myself into it create endless possibilities and
+              I have immersed myself into it to create endless possibilities and
               opportunities, with an aim to develop clean and wonderful
               products, providing an engaging user experience.
             </p>
@@ -81,9 +83,9 @@ const App = () => {
               But whenever <span>I am not in front of my pc screen</span>, I am
               probably <span>cooking, reading books, or cycling</span>.
             </p>
-            <a className="resume-link" href="#">
+            {/* <a className="resume-link" href="#">
               View my resume
-            </a>
+            </a> */}
           </div>
         </div>
 
@@ -121,10 +123,10 @@ const App = () => {
               <FontAwesomeIcon className="skill-icon" icon={faGitAlt} />
               <p>Git</p>
             </div>
-            <div className="icon-container">
+            {/* <div className="icon-container">
               <FontAwesomeIcon className="skill-icon" icon={faGithub} />
               <p>Github</p>
-            </div>
+            </div> */}
             <div className="icon-container">
               <svg
                 className="mongo"
@@ -147,7 +149,7 @@ const App = () => {
           <div className="project-detail-container">
             <div className="project-detail">
               <div className="project-info">
-                <h4>bookInn</h4>
+                <h4>BookInn</h4>
                 <div className="tool-req">
                   <p>Javascript</p>
                   <p>React</p>
@@ -173,7 +175,10 @@ const App = () => {
                 </a>
               </div>
               <div className="project-img-container">
-                <a href="https://react-bookinn-application.netlify.app/">
+                <a
+                  target="blank"
+                  href="https://react-bookinn-application.netlify.app/"
+                >
                   <img src="/images/bookInn.png" alt="ss" />
                 </a>
               </div>
@@ -247,7 +252,10 @@ const App = () => {
                 <img src="/images/test-image.jpg" alt="ss" />
               </div>
             </div> */}
-            <a href="#" className="other-project">
+            <a
+              href="https://github.com/rajdeepX?tab=repositories"
+              className="other-project"
+            >
               Check my other projects on github.
             </a>
           </div>
@@ -273,16 +281,27 @@ const App = () => {
             about how awesome they are! We can code while we eat our spiced up
             chicken!
           </p>
-          <a href="mailto:rajdeepdutta70@gmail.com" className="contact-btn">
+          <a
+            href="mailto:rajdeepdutta70@gmail.com"
+            className="contact-btn"
+            target="blank"
+          >
             Contact Me
           </a>
         </div>
       </main>
       <footer>
         <div className="footer-links">
-          <a href="mailto:rajdeepdutta70@gmail.com">Email</a>
-          <a href="https://github.com/rajdeepX">Github</a>
-          <a href="https://www.linkedin.com/in/rajdeep-dutta-5b870115b/">
+          <a href="mailto:rajdeepdutta70@gmail.com" target="blank">
+            Email
+          </a>
+          <a href="https://github.com/rajdeepX" target="blank">
+            Github
+          </a>
+          <a
+            href="https://www.linkedin.com/in/rajdeep-dutta-5b870115b/"
+            target="blank"
+          >
             LinkedIn
           </a>
         </div>

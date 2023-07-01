@@ -149,6 +149,34 @@ const App = () => {
           <div className="project-detail-container">
             <div className="project-detail">
               <div className="project-info">
+                <h4>BlogSite</h4>
+                <div className="tool-req">
+                  <p>Javascript</p>
+                  <p>React</p>
+                  <p>React Router</p>
+                  <p>Sementic UI</p>
+                  <p>Express</p>
+                  <p>NodeJs</p>
+                  <p>MongoDB</p>
+                </div>
+                <p>
+                  Introducing my MERN-powered blog platform, blogSite! Immerse
+                  yourself in a world of captivating content. Discover, read,
+                  and engage with a vibrant community of writers. Create an
+                  account, share your thoughts, and edit your blogs
+                  effortlessly. Unleash your creativity and be part of a
+                  thriving online ecosystem.
+                </p>
+                <a href="https://github.com/rajdeepX/mern-blogSite">
+                  View Project Code
+                </a>
+              </div>
+              <div className="project-img-container">
+                <img src="/images/blogSS.jpg" alt="ss" />
+              </div>
+            </div>
+            <div className="project-detail">
+              <div className="project-info">
                 <h4>BookInn</h4>
                 <div className="tool-req">
                   <p>Javascript</p>
@@ -171,7 +199,7 @@ const App = () => {
                   View Project
                 </a>
                 <a href="https://github.com/rajdeepX/bookInn-project">
-                  View Code
+                  View Project Code
                 </a>
               </div>
               <div className="project-img-container">
@@ -183,75 +211,62 @@ const App = () => {
                 </a>
               </div>
             </div>
-            {/* <div className="project-detail">
-              <div className="project-info">
-                <h4>Project 2</h4>
-                <div className="tool-req">
-                  <p>Javascript</p>
-                  <p>React</p>
-                  <p>React Router</p>
-                  <p>Sementic UI</p>
-                  <p>Express</p>
-                  <p>NodeJs</p>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-                  tenetur earum officia libero quo incidunt, sunt cupiditate
-                  assumenda qui animi beatae magnam vitae eligendi ut. Quidem
-                  fugit qui neque nulla.
-                </p>
-                <a href="#">View Project</a>
-              </div>
-              <div className="project-img-container">
-                <img src="/images/test-image.jpg" alt="ss" />
-              </div>
-            </div>
             <div className="project-detail">
               <div className="project-info">
-                <h4>Project 3</h4>
+                <h4>CrypTrack</h4>
                 <div className="tool-req">
                   <p>Javascript</p>
                   <p>React</p>
                   <p>React Router</p>
                   <p>Sementic UI</p>
-                  <p>Express</p>
-                  <p>NodeJs</p>
+                  <p>Rapid Api</p>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-                  tenetur earum officia libero quo incidunt, sunt cupiditate
-                  assumenda qui animi beatae magnam vitae eligendi ut. Quidem
-                  fugit qui neque nulla.
+                  Welcome to my React-based cryptocurrency tracker CrypTrack!
+                  Here you can find data on various cryptocurrencies. Powered by
+                  Rapid API, this dynamic website provides essential
+                  information, including prices and historical chart. Explore
+                  the exciting world of digital currencies and make informed
+                  investment decisions.
                 </p>
-                <a href="#">View Project</a>
+                <a href="https://cryptrack-react-project.netlify.app/">
+                  View Project
+                </a>
+                <a href="https://github.com/rajdeepX/CrypTrack">
+                  View Project Code
+                </a>
               </div>
               <div className="project-img-container">
-                <img src="/images/test-image.jpg" alt="ss" />
+                <img src="/images/cryptrack.jpg" alt="ss" />
               </div>
             </div>
+
             <div className="project-detail">
               <div className="project-info">
-                <h4>Project 4</h4>
+                <h4>NoteSync</h4>
                 <div className="tool-req">
                   <p>Javascript</p>
                   <p>React</p>
-                  <p>React Router</p>
                   <p>Sementic UI</p>
-                  <p>Express</p>
-                  <p>NodeJs</p>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-                  tenetur earum officia libero quo incidunt, sunt cupiditate
-                  assumenda qui animi beatae magnam vitae eligendi ut. Quidem
-                  fugit qui neque nulla.
+                  Capture, organize, and never forget with our sleek notes app
+                  inspired by Google Keep. Effortlessly jot down thoughts and
+                  any important idea you discovered. Enjoy a clean interface,
+                  real-time syncing for a seamless note-taking experience. Stay
+                  productive and keep your ideas within reach.
                 </p>
-                <a href="#">View Project</a>
+                <a href="https://notesync-react-project.netlify.app/">
+                  View Project
+                </a>
+                <a href="https://github.com/rajdeepX/NoteSync">
+                  View Project Code
+                </a>
               </div>
               <div className="project-img-container">
-                <img src="/images/test-image.jpg" alt="ss" />
+                <img src="/images/noteSync.jpg" alt="ss" />
               </div>
-            </div> */}
+            </div>
             <a
               href="https://github.com/rajdeepX?tab=repositories"
               className="other-project"

@@ -85,7 +85,11 @@ const HomePage = () => {
               But whenever <span>I am not in front of my pc screen</span>, I am
               probably <span>cooking, reading books, or cycling</span>.
             </p>
-            <a href="#" className="resume-link">
+            <a
+              href="https://drive.google.com/file/d/1GoTehqDfpQFvXWCL38Vgg1wPJ2EpbR5t/view?usp=sharing"
+              className="resume-link"
+              target="blank"
+            >
               Check out my CV
             </a>
           </div>

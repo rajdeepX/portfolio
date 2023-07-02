@@ -48,6 +48,9 @@
   color: yellow;
   border-bottom: 1px solid yellow;
 }
+.other-blogs a {
+  color: yellow;
+}
 
 @media screen and (max-width: 768px) {
   .featured-container header {
@@ -64,5 +67,17 @@
   .blog-details {
     width: 100%;
     margin-bottom: 30px;
+  }
+  .featured-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .other-blogs {
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .other-blogs a {
+    color: yellow;
   }
 }

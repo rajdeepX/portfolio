@@ -51,9 +51,11 @@ const Featured = () => {
           </Link>
         </div>
       </div>
-      <Link to={"/mini-blog"} className="other-blogs">
-        View my other blogs <FontAwesomeIcon icon={faArrowRight} />
-      </Link>
+      <div className="other-blogs">
+        <Link to={"/mini-blog"}>
+          View my other blogs <FontAwesomeIcon icon={faArrowRight} />
+        </Link>
+      </div>
     </div>
   );
 };

@@ -300,6 +300,9 @@ h3 {
 .commit p:last-child {
   margin-top: 20px;
 }
+.commit {
+  text-align: center;
+}
 
 /* footer */
 

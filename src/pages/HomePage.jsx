@@ -227,6 +227,7 @@ const HomePage = () => {
                   <p>React Router</p>
                   <p>Sementic UI</p>
                   <p>Rapid Api</p>
+                  <p>Chart.js</p>
                 </div>
                 <p>
                   Welcome to my React-based cryptocurrency tracker CrypTrack!

@@ -177,12 +177,21 @@ const HomePage = () => {
                   effortlessly. Unleash your creativity and be part of a
                   thriving online ecosystem.
                 </p>
-                <a href="https://github.com/rajdeepX/mern-blogSite">
+                <a
+                  href="https://github.com/rajdeepX/mern-blogSite"
+                  target="blank"
+                >
                   View Project Code
                 </a>
               </div>
+
               <div className="project-img-container">
-                <img src="/images/blogSS.jpg" alt="ss" />
+                <a
+                  href="https://github.com/rajdeepX/mern-blogSite"
+                  target="blank"
+                >
+                  <img src="/images/blogSS.jpg" alt="ss" />
+                </a>
               </div>
             </div>
             <div className="project-detail">
@@ -202,10 +211,16 @@ const HomePage = () => {
                   homes, villas, and apartments, and make your travel dreams a
                   reality.
                 </p>
-                <a href="https://react-bookinn-application.netlify.app/">
+                <a
+                  href="https://react-bookinn-application.netlify.app/"
+                  target="blank"
+                >
                   View Project
                 </a>
-                <a href="https://github.com/rajdeepX/bookInn-project">
+                <a
+                  href="https://github.com/rajdeepX/bookInn-project"
+                  target="blank"
+                >
                   View Project Code
                 </a>
               </div>
@@ -237,7 +252,10 @@ const HomePage = () => {
                   the exciting world of digital currencies and make informed
                   investment decisions.
                 </p>
-                <a href="https://cryptrack-react-project.netlify.app/">
+                <a
+                  href="https://cryptrack-react-project.netlify.app/"
+                  target="blank"
+                >
                   View Project
                 </a>
                 <a href="https://github.com/rajdeepX/CrypTrack">
@@ -245,7 +263,12 @@ const HomePage = () => {
                 </a>
               </div>
               <div className="project-img-container">
-                <img src="/images/cryptrack.jpg" alt="ss" />
+                <a
+                  href="https://cryptrack-react-project.netlify.app/"
+                  target="blank"
+                >
+                  <img src="/images/cryptrack.jpg" alt="ss" />
+                </a>
               </div>
             </div>
 
@@ -264,7 +287,10 @@ const HomePage = () => {
                   real-time syncing for a seamless note-taking experience. Stay
                   productive and keep your ideas within reach.
                 </p>
-                <a href="https://notesync-react-project.netlify.app/">
+                <a
+                  href="https://notesync-react-project.netlify.app/"
+                  target="blank"
+                >
                   View Project
                 </a>
                 <a href="https://github.com/rajdeepX/NoteSync">
@@ -272,7 +298,12 @@ const HomePage = () => {
                 </a>
               </div>
               <div className="project-img-container">
-                <img src="/images/noteSync.jpg" alt="ss" />
+                <a
+                  href="https://notesync-react-project.netlify.app/"
+                  target="blank"
+                >
+                  <img src="/images/noteSync.jpg" alt="ss" />
+                </a>
               </div>
             </div>
             <a

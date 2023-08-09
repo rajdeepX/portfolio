@@ -87,7 +87,7 @@ const HomePage = () => {
               probably <span>cooking, reading books, or cycling</span>.
             </p>
             <a
-              href="https://drive.google.com/file/d/1ZGwskwL8uzl1BAQ5bQsyXAxcbslPKiVC/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1dfl2_M77CrXcovN0qnv3bu-_5PzEQZpp/view?usp=drive_link"
               className="resume-link"
               target="blank"
             >

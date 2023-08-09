@@ -201,7 +201,7 @@ const HomePage = () => {
                   <p>MongoDB</p>
                 </div>
                 <p>
-                  Introducing my MERN-powered blog platform, blogSite! Immerse
+                  A fullstack MERN-powered blog platform, blogSite! Immerse
                   yourself in a world of captivating content. Discover, read,
                   and engage with a vibrant community of writers. Create an
                   account, share your thoughts, and edit your blogs
@@ -239,8 +239,8 @@ const HomePage = () => {
                   <p>Sementic UI</p>
                 </div>
                 <p>
-                  Introducing a dynamic note-taking app powered by the MERN
-                  stack and enriched with TypeScript. Seamlessly organize your
+                  A fullstack dynamic note-taking app powered by the MERN stack
+                  and enriched with TypeScript. Seamlessly organize your
                   thoughts within individual notes, which can be structured into
                   decks for optimal clarity. Elevate your note-taking experience
                   with NoteDeck's intuitive and versatile platform.

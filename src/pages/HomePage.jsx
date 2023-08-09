@@ -7,16 +7,17 @@ import {
 import {
   faCss3Alt,
   faGitAlt,
-  faGithub,
+  // faGithub,
   faHtml5,
   faNode,
   faNpm,
   faReact,
   faSquareJs,
 } from "@fortawesome/free-brands-svg-icons";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Footer from "../component/Footer";
 import Featured from "../component/Featured";
+import typescript from "/images/typescript.svg";
 
 const HomePage = () => {
   return (
@@ -126,6 +127,40 @@ const HomePage = () => {
               <p>NodeJs</p>
             </div>
             <div className="icon-container">
+              {/* <FontAwesomeIcon className="skill-icon" icon={fa} /> */}
+              <svg
+                className="typescript"
+                version="1.0"
+                xmlns="http://www.w3.org/2000/svg"
+                // width="64.000000pt"
+                // height="64.000000pt"
+                viewBox="0 0 512.000000 512.000000"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <g
+                  transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                  stroke="none"
+                >
+                  <path
+                    d="M383 5106 c-181 -44 -334 -202 -372 -384 -16 -75 -16 -4249 0 -4324
+39 -187 200 -348 387 -387 75 -16 4249 -16 4324 0 92 19 177 67 249 138 71 72
+119 157 138 249 16 75 16 4249 0 4324 -39 187 -200 348 -387 387 -81 17 -4268
+14 -4339 -3z m3987 -2390 c47 -9 118 -26 158 -37 l72 -22 0 -233 0 -234 -62
+35 c-249 136 -621 154 -768 37 -41 -33 -80 -104 -80 -147 1 -45 33 -107 79
+-152 51 -49 135 -96 311 -175 182 -81 264 -123 332 -169 126 -86 221 -207 261
+-334 32 -101 31 -300 0 -400 -74 -232 -251 -371 -554 -436 -87 -19 -137 -23
+-309 -23 -250 -1 -410 24 -576 91 l-64 25 0 249 c0 137 1 249 3 249 2 0 28
+-18 58 -41 74 -56 217 -123 319 -151 72 -19 109 -23 240 -23 138 1 161 3 213
+24 72 28 124 73 148 126 25 53 23 90 -5 150 -45 98 -136 160 -407 276 -176 75
+-252 117 -346 191 -153 120 -233 288 -233 488 0 345 238 575 666 645 115 19
+423 13 544 -9z m-1400 -231 l0 -205 -320 0 -320 0 0 -915 0 -915 -255 0 -255
+0 0 915 0 915 -320 0 -320 0 0 205 0 205 895 0 895 0 0 -205z"
+                  />
+                </g>
+              </svg>
+              <p>TypeScript</p>
+            </div>
+            <div className="icon-container">
               <FontAwesomeIcon className="skill-icon" icon={faNpm} />
               <p>npm</p>
             </div>
@@ -133,10 +168,6 @@ const HomePage = () => {
               <FontAwesomeIcon className="skill-icon" icon={faGitAlt} />
               <p>Git</p>
             </div>
-            {/* <div className="icon-container">
-              <FontAwesomeIcon className="skill-icon" icon={faGithub} />
-              <p>Github</p>
-            </div> */}
             <div className="icon-container">
               <svg
                 className="mongo"
@@ -194,6 +225,40 @@ const HomePage = () => {
                 </a>
               </div>
             </div>
+
+            <div className="project-detail">
+              <div className="project-info">
+                <h4>NoteDeckV2</h4>
+                <div className="tool-req">
+                  <p>React</p>
+                  <p>TypeScript</p>
+                  <p>MongoDB</p>
+                  <p>React Router</p>
+                  <p>NodeJs</p>
+                  <p>ExpressJs</p>
+                  <p>Sementic UI</p>
+                </div>
+                <p>
+                  Introducing a dynamic note-taking app powered by the MERN
+                  stack and enriched with TypeScript. Seamlessly organize your
+                  thoughts within individual notes, which can be structured into
+                  decks for optimal clarity. Elevate your note-taking experience
+                  with NoteDeck's intuitive and versatile platform.
+                </p>
+                <a href="https://notedeckv2.onrender.com/" target="blank">
+                  View Project
+                </a>
+                <a href="https://github.com/rajdeepX/NoteDeckV2" target="blank">
+                  View Project Code
+                </a>
+              </div>
+              <div className="project-img-container">
+                <a href="https://notedeckv2.onrender.com/" target="blank">
+                  <img src="/images/NoteDeck.jpg" alt="ss" />
+                </a>
+              </div>
+            </div>
+
             <div className="project-detail">
               <div className="project-info">
                 <h4>BookInn</h4>
@@ -272,40 +337,6 @@ const HomePage = () => {
               </div>
             </div>
 
-            <div className="project-detail">
-              <div className="project-info">
-                <h4>NoteSync</h4>
-                <div className="tool-req">
-                  <p>Javascript</p>
-                  <p>React</p>
-                  <p>Sementic UI</p>
-                </div>
-                <p>
-                  Capture, organize, and never forget with our sleek notes app
-                  inspired by Google Keep. Effortlessly jot down thoughts and
-                  any important idea you discovered. Enjoy a clean interface,
-                  real-time syncing for a seamless note-taking experience. Stay
-                  productive and keep your ideas within reach.
-                </p>
-                <a
-                  href="https://notesync-react-project.netlify.app/"
-                  target="blank"
-                >
-                  View Project
-                </a>
-                <a href="https://github.com/rajdeepX/NoteSync">
-                  View Project Code
-                </a>
-              </div>
-              <div className="project-img-container">
-                <a
-                  href="https://notesync-react-project.netlify.app/"
-                  target="blank"
-                >
-                  <img src="/images/noteSync.jpg" alt="ss" />
-                </a>
-              </div>
-            </div>
             <a
               href="https://github.com/rajdeepX?tab=repositories"
               className="other-project"

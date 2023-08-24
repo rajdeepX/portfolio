@@ -1,4 +1,3 @@
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHandPointRight,
@@ -7,7 +6,6 @@ import {
 import {
   faCss3Alt,
   faGitAlt,
-  // faGithub,
   faHtml5,
   faNode,
   faNpm,
@@ -17,7 +15,7 @@ import {
 // import { Link } from "react-router-dom";
 import Footer from "../component/Footer";
 import Featured from "../component/Featured";
-import typescript from "/images/typescript.svg";
+// import typescript from "/images/typescript.svg";
 
 const HomePage = () => {
   return (
@@ -209,6 +207,12 @@ const HomePage = () => {
                   thriving online ecosystem.
                 </p>
                 <a
+                  href="https://blogsite-mern-blog.onrender.com/"
+                  target="blank"
+                >
+                  View Project
+                </a>
+                <a
                   href="https://github.com/rajdeepX/mern-blogSite"
                   target="blank"
                 >
@@ -218,7 +222,7 @@ const HomePage = () => {
 
               <div className="project-img-container">
                 <a
-                  href="https://github.com/rajdeepX/mern-blogSite"
+                  href="https://blogsite-mern-blog.onrender.com/"
                   target="blank"
                 >
                   <img src="/images/blogSS.jpg" alt="ss" />

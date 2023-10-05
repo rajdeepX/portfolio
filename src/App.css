@@ -188,11 +188,8 @@ h3 {
   font-size: 2rem;
 }
 
-.icon-container .mongo,
-.icon-container .typescript {
-  fill: #e1e7ef;
-  width: 2rem;
-  margin-bottom: -3px;
+.icon-container svg {
+  font-size: 3rem;
 }
 
 /* project */

@@ -354,7 +354,7 @@ const HomePage = () => {
               </div>
               <div className="project-img-container">
                 <a
-                  href="https://cryptrack-react-project.netlify.app/"
+                  href="https://contact-management-covid-dashboard.netlify.app/"
                   target="blank"
                 >
                   <img src={img} alt="ss" />

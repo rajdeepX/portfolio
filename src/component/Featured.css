@@ -53,6 +53,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .featured-container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
   .featured-container header {
     text-align: center;
     margin: 0 auto 20px;

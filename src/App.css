@@ -327,7 +327,8 @@ footer .footer-links a:hover {
 
 @media screen and (max-width: 768px) {
   main {
-    padding: 0 28px;
+    max-width: 700px;
+    padding: 0 20px;
   }
   .intro-container {
     max-width: 500px;
@@ -344,10 +345,10 @@ footer .footer-links a:hover {
   .background-container {
     display: flex;
     align-items: center;
-    width: 100%;
+    max-width: 500px;
     flex-direction: column;
     justify-content: center;
-    /* padding: 0 50px; */
+    padding: 0 50px;
     text-align: center;
   }
   .background-container h3 {
@@ -364,13 +365,25 @@ footer .footer-links a:hover {
   }
 
   .skill-container {
+    max-width: 500px;
+    margin: 150px auto;
+
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
     text-align: center;
     /* padding: 0; */
   }
+
+  .skill-icon-container {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    text-align: center;
+  }
+
   .skill-container h3 {
     margin: 0 auto 20px;
     border-bottom: 1px solid #e1e7ef;
@@ -385,6 +398,8 @@ footer .footer-links a:hover {
     align-items: center;
     /* padding: 0 50px; */
     text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
   }
   .project-detail {
     display: flex;
@@ -413,5 +428,9 @@ footer .footer-links a:hover {
   .contact-container {
     /* padding: 0 50px; */
     text-align: center;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex
   }
 }

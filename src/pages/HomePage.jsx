@@ -168,7 +168,43 @@ const HomePage = () => {
           <div className="project-detail-container">
             <div className="project-detail">
               <div className="project-info">
-                <h4>BlogSite</h4>
+                <h4>
+                  Outdoors <span className="project-info__date">2024</span>
+                </h4>
+                <div className="tool-req">
+                  <p>Javascript</p>
+                  <p>React</p>
+                  <p>Sementic UI</p>
+                  <p>SASS</p>
+                </div>
+                <p>
+                  Outdoors is a trekking booking web app where users can browse
+                  and opt their next trekking amidst the nature. This is a
+                  frontend only web app created using React and SASS, is a
+                  outline of my journey so far.
+                </p>
+                <a href="https://outdoors-ll.netlify.app/" target="blank">
+                  View Project
+                </a>
+                <a
+                  href="https://github.com/rajdeepX/outdoors_II"
+                  target="blank"
+                >
+                  View Project Code
+                </a>
+              </div>
+
+              <div className="project-img-container">
+                <a href="https://outdoors-ll.netlify.app/" target="blank">
+                  <img src="/images/outdoor.png" alt="ss" />
+                </a>
+              </div>
+            </div>
+            <div className="project-detail">
+              <div className="project-info">
+                <h4>
+                  BlogSite <span className="project-info__date">2023</span>
+                </h4>
                 <div className="tool-req">
                   <p>Javascript</p>
                   <p>React</p>
@@ -212,7 +248,9 @@ const HomePage = () => {
 
             <div className="project-detail">
               <div className="project-info">
-                <h4>NoteDeckV2</h4>
+                <h4>
+                  NoteDeckV2 <span className="project-info__date">2023</span>
+                </h4>
                 <div className="tool-req">
                   <p>React</p>
                   <p>TypeScript</p>
@@ -245,7 +283,9 @@ const HomePage = () => {
 
             <div className="project-detail">
               <div className="project-info">
-                <h4>BookInn</h4>
+                <h4>
+                  BookInn <span className="project-info__date">2023</span>
+                </h4>
                 <div className="tool-req">
                   <p>Javascript</p>
                   <p>React</p>
@@ -284,7 +324,9 @@ const HomePage = () => {
             </div>
             <div className="project-detail">
               <div className="project-info">
-                <h4>CrypTrack</h4>
+                <h4>
+                  CrypTrack <span className="project-info__date">2023</span>
+                </h4>
                 <div className="tool-req">
                   <p>Javascript</p>
                   <p>React</p>
@@ -322,7 +364,10 @@ const HomePage = () => {
             </div>
             <div className="project-detail">
               <div className="project-info">
-                <h4>Dashboard</h4>
+                <h4>
+                  Covid Dashboard{" "}
+                  <span className="project-info__date">2023</span>
+                </h4>
                 <div className="tool-req">
                   <p>TypeScript</p>
                   <p>React</p>

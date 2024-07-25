@@ -431,6 +431,10 @@ footer .footer-links a:hover {
     max-width: 500px;
     display: flex;
     flex-direction: column;
-    flex
   }
+}
+
+.project-info__date {
+  color: grey;
+  font-size: 14px;
 }

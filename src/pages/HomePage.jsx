@@ -12,6 +12,8 @@ import {
   faReact,
   faSquareJs,
 } from "@fortawesome/free-brands-svg-icons";
+
+import { FaAngular } from "react-icons/fa";
 // import { Link } from "react-router-dom";
 import Footer from "../component/Footer";
 import Featured from "../component/Featured";
@@ -98,10 +100,9 @@ const HomePage = () => {
               probably <span>cooking, reading books, or cycling</span>.
             </p>
             <a
-              href="https://drive.google.com/file/d/1zxBdwIYE68KFkBVnNcAx254VmgS_S7o_/view?usp=sharing"
+              href="https://drive.google.com/file/d/1eHMNmYYOGwIMPkjtrd_4INVqL6i5NKbz/view?usp=sharing"
               className="resume-link"
-              target="blank"
-            >
+              target="blank">
               Check out my CV
             </a>
           </div>
@@ -134,8 +135,9 @@ const HomePage = () => {
               <p>React</p>
             </div>
             <div className="icon-container">
-              <SiRedux className="redux" />
-              <p>Redux</p>
+              {/* <SiRedux className="redux" /> */}
+              <FaAngular />
+              <p>Angular</p>
             </div>
             <div className="icon-container">
               <SiNodedotjs />
@@ -188,8 +190,7 @@ const HomePage = () => {
                 </a>
                 <a
                   href="https://github.com/rajdeepX/outdoors_II"
-                  target="blank"
-                >
+                  target="blank">
                   View Project Code
                 </a>
               </div>
@@ -224,14 +225,12 @@ const HomePage = () => {
                 </p>
                 <a
                   href="https://blogsite-mern-blog.onrender.com/"
-                  target="blank"
-                >
+                  target="blank">
                   View Project
                 </a>
                 <a
                   href="https://github.com/rajdeepX/mern-blogSite"
-                  target="blank"
-                >
+                  target="blank">
                   View Project Code
                 </a>
               </div>
@@ -239,8 +238,7 @@ const HomePage = () => {
               <div className="project-img-container">
                 <a
                   href="https://blogsite-mern-blog.onrender.com/"
-                  target="blank"
-                >
+                  target="blank">
                   <img src="/images/blogSS.jpg" alt="ss" />
                 </a>
               </div>
@@ -302,22 +300,19 @@ const HomePage = () => {
                 </p>
                 <a
                   href="https://react-bookinn-application.netlify.app/"
-                  target="blank"
-                >
+                  target="blank">
                   View Project
                 </a>
                 <a
                   href="https://github.com/rajdeepX/bookInn-project"
-                  target="blank"
-                >
+                  target="blank">
                   View Project Code
                 </a>
               </div>
               <div className="project-img-container">
                 <a
                   target="blank"
-                  href="https://react-bookinn-application.netlify.app/"
-                >
+                  href="https://react-bookinn-application.netlify.app/">
                   <img src="/images/bookInn.png" alt="ss" />
                 </a>
               </div>
@@ -345,8 +340,7 @@ const HomePage = () => {
                 </p>
                 <a
                   href="https://cryptrack-react-project.netlify.app/"
-                  target="blank"
-                >
+                  target="blank">
                   View Project
                 </a>
                 <a href="https://github.com/rajdeepX/CrypTrack">
@@ -356,8 +350,7 @@ const HomePage = () => {
               <div className="project-img-container">
                 <a
                   href="https://cryptrack-react-project.netlify.app/"
-                  target="blank"
-                >
+                  target="blank">
                   <img src="/images/cryptrack.jpg" alt="ss" />
                 </a>
               </div>
@@ -389,8 +382,7 @@ const HomePage = () => {
                 </p>
                 <a
                   href="https://contact-management-covid-dashboard.netlify.app/"
-                  target="blank"
-                >
+                  target="blank">
                   View Project
                 </a>
                 <a href="https://github.com/rajdeepX/Dashboard">
@@ -400,8 +392,7 @@ const HomePage = () => {
               <div className="project-img-container">
                 <a
                   href="https://contact-management-covid-dashboard.netlify.app/"
-                  target="blank"
-                >
+                  target="blank">
                   <img src={img} alt="ss" />
                 </a>
               </div>
@@ -409,8 +400,7 @@ const HomePage = () => {
 
             <a
               href="https://github.com/rajdeepX?tab=repositories"
-              className="other-project"
-            >
+              className="other-project">
               Check my other projects on github.
             </a>
           </div>
@@ -439,8 +429,7 @@ const HomePage = () => {
           <a
             href="mailto:rajdeepdutta70@gmail.com"
             className="contact-btn"
-            target="blank"
-          >
+            target="blank">
             Contact Me
           </a>
         </div>

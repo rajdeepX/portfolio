@@ -149,8 +149,8 @@ const HomePage = () => {
               <p>TypeScript</p>
             </div>
             <div className="icon-container">
-              <SiNpm />
-              <p>npm</p>
+              <SiRedux className="redux" />
+              <p>Redux</p>
             </div>
             <div className="icon-container">
               <SiGit />

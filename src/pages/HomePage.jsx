@@ -14,8 +14,10 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 import { FaAngular } from "react-icons/fa";
+import { FaSass } from "react-icons/fa";
 // import { Link } from "react-router-dom";
 import Footer from "../component/Footer";
+import { SiTailwindcss } from "react-icons/si";
 import Featured from "../component/Featured";
 // import typescript from "/images/typescript.svg";
 import img from "../../public/images/dash.png";
@@ -123,12 +125,20 @@ const HomePage = () => {
             </div>
 
             <div className="icon-container">
-              <SiCss3 />
-              <p>CSS</p>
+              <FaSass />
+              <p>SASS</p>
+            </div>
+            <div className="icon-container">
+              <SiTailwindcss />
+              <p>Tailwind</p>
             </div>
             <div className="icon-container">
               <SiJavascript />
               <p>Javascript</p>
+            </div>
+            <div className="icon-container">
+              <BiLogoTypescript />
+              <p>TypeScript</p>
             </div>
             <div className="icon-container">
               <SiReact />
@@ -138,15 +148,6 @@ const HomePage = () => {
               {/* <SiRedux className="redux" /> */}
               <FaAngular />
               <p>Angular</p>
-            </div>
-            <div className="icon-container">
-              <SiNodedotjs />
-              <p>NodeJs</p>
-            </div>
-            <div className="icon-container">
-              {/* <FontAwesomeIcon className="skill-icon" icon={fa} /> */}
-              <BiLogoTypescript />
-              <p>TypeScript</p>
             </div>
             <div className="icon-container">
               <SiRedux className="redux" />

@@ -145,7 +145,6 @@ const HomePage = () => {
               <p>React</p>
             </div>
             <div className="icon-container">
-              {/* <SiRedux className="redux" /> */}
               <FaAngular />
               <p>Angular</p>
             </div>

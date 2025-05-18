@@ -99,12 +99,12 @@ const HomePage = () => {
               But whenever <span>I am not in front of my pc screen</span>, I am
               probably <span>cooking, reading books, or cycling</span>.
             </p>
-            <a
+            {/* <a
               href="https://drive.google.com/file/d/1eHMNmYYOGwIMPkjtrd_4INVqL6i5NKbz/view?usp=sharing"
               className="resume-link"
               target="blank">
               Check out my CV
-            </a>
+            </a> */}
           </div>
         </div>
 
@@ -198,6 +198,80 @@ const HomePage = () => {
               <div className="project-img-container">
                 <a href="https://outdoors-ll.netlify.app/" target="blank">
                   <img src="/images/outdoor.png" alt="ss" />
+                </a>
+              </div>
+            </div>
+            <div className="project-detail">
+              <div className="project-info">
+                <h4>
+                  Investment Calculator{" "}
+                  <span className="project-info__date">2024</span>
+                </h4>
+                <div className="tool-req">
+                  <p>Javascript</p>
+                  <p>React</p>
+                  <p>Sementic UI</p>
+                  <p>CSS Modules</p>
+                </div>
+                <p>
+                  A simple and interactive React application to calculate how
+                  your investments grow over time with annual contributions and
+                  compound interest.
+                </p>
+                <a
+                  href="https://investcalc-rajdeep.netlify.app/"
+                  target="blank">
+                  View Project
+                </a>
+                <a
+                  href="https://github.com/rajdeepX/investmentCalculator"
+                  target="blank">
+                  View Project Code
+                </a>
+              </div>
+
+              <div className="project-img-container">
+                <a
+                  href="https://investcalc-rajdeep.netlify.app/"
+                  target="blank">
+                  <img src="/images/investCalc-ss.png" alt="ss" />
+                </a>
+              </div>
+            </div>
+            <div className="project-detail">
+              <div className="project-info">
+                <h4>
+                  ExpenseTrack <span className="project-info__date">2024</span>
+                </h4>
+                <div className="tool-req">
+                  <p>Javascript</p>
+                  <p>React</p>
+                  <p>Sementic UI</p>
+                  <p>Vanila Css</p>
+                </div>
+                <p>
+                  Xpensetrack is a simple and intuitive expense tracker app that
+                  helps users manage their daily finances. With a clean
+                  interface and quick entry features, users can add, view, and
+                  organize their expenses with ease.
+                </p>
+                <a
+                  href="https://xpensetrack-rajdeep.netlify.app/"
+                  target="blank">
+                  View Project
+                </a>
+                <a
+                  href="https://github.com/rajdeepX/xPenseTrack"
+                  target="blank">
+                  View Project Code
+                </a>
+              </div>
+
+              <div className="project-img-container">
+                <a
+                  href="https://xpensetrack-rajdeep.netlify.app/"
+                  target="blank">
+                  <img src="/images/xpenseTrack-ss.png" alt="ss" />
                 </a>
               </div>
             </div>
